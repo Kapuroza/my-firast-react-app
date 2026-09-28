@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 export function Playlisty() {
   const [utwory, setUtwory] = useState([
-    { id: 1, nazwa: "Bohemian Rhapsody", kategoria: 1, odtworzenia: 0 },
-    { id: 2, nazwa: "Blinding Lights", kategoria: 2, odtworzenia: 0 },
-    { id: 3, nazwa: "Hit the Road Jack", kategoria: 3, odtworzenia: 0 }
+    { id: 1, nazwa: "Bohemian Rhapsody", kategoria: 1, odtworzenia: 32 },
+    { id: 2, nazwa: "Blinding Lights", kategoria: 2, odtworzenia: 33 },
+    { id: 3, nazwa: "Hit the Road Jack", kategoria: 3, odtworzenia: 34 }
   ]);
 
   const [rock, setRock] = useState(true);
